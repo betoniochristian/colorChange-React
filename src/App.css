@@ -1,0 +1,62 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: yellow;
+  transition: background-color 2s ease;
+}
+.quote-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 550px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.double-quote{
+  font-size: 2.5rem;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+.quote-style{
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  transition: background-color 2s ease;
+}
+.author-style{
+  margin-top: 10px;
+  text-align: right;
+  transition: background-color 2s ease;
+}
+.btn-container{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  transition: background-color 2s ease;
+}
+.btn-design{
+  width: 100px;
+  height: 35px;
+  font-family: 'Verdana', sans-serif;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 330px;
+  transition: background-color 2s ease;
+}
+.fab{
+  font-size: 40px;
+  transition: background-color 2s ease;
+  margin-right: 5px;
+  margin-left: 5px;
+}
